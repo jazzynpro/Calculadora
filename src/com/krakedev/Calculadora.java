@@ -13,6 +13,10 @@ public class Calculadora {
 			return resultado;
 		}
 		
-	
+		public double multiplicar(int a, int b) {
+			double resultado;
+			resultado = a * b;
+			return resultado;
+		}
 		
 }

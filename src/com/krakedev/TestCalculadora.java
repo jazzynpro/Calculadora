@@ -14,6 +14,10 @@ public class TestCalculadora {
 		r2 = c1.restar(8, 5);
 		System.out.print("Resultado resta: "+ r2);
 		
+		double r3;
+		r3 = c1.multiplicar(10, 5);
+		System.out.print("Resultado producto: "+ r3);
+		
 	}
 
 }
