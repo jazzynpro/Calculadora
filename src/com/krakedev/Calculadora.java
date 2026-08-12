@@ -13,12 +13,12 @@ public class Calculadora {
 			return resultado;
 		}
 		
-		public double multiplicar(int a, int b) {
+		public double multiplicar(double a, double b) {
 			double resultado;
 			resultado = a * b;
 			return resultado;
 		}
-		public double dividir(int a, int b) {
+		public double dividir(double a, double b) {
 			double resultado;
 			resultado = a / b;
 			return resultado;
@@ -28,5 +28,7 @@ public class Calculadora {
 			resultado = ((a + b + c) /3 );
 			return resultado;
 		}
-		
+		public void mostrarResultado() {
+			System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");
+		}
 }
