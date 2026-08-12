@@ -23,4 +23,10 @@ public class Calculadora {
 			resultado = a / b;
 			return resultado;
 		}
+		public double promediar(double a, double b, double c) {
+			double resultado;
+			resultado = ((a + b + c) /3 );
+			return resultado;
+		}
+		
 }
